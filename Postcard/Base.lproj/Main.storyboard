@@ -108,7 +108,16 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="206" height="80"/>
+                                    <rect key="frame" x="16" y="72" width="206" height="52"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sv-X1-kn8">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="121" width="206" height="31"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -120,6 +129,7 @@
                                 <exclude reference="1ic-FV-xnR"/>
                                 <exclude reference="tnI-vu-Fmt"/>
                                 <exclude reference="YYn-4O-XLS"/>
+                                <exclude reference="7sv-X1-kn8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -129,6 +139,7 @@
                                 <include reference="1ic-FV-xnR"/>
                                 <include reference="tnI-vu-Fmt"/>
                                 <include reference="YYn-4O-XLS"/>
+                                <include reference="7sv-X1-kn8"/>
                             </mask>
                         </variation>
                     </view>
@@ -137,6 +148,7 @@
                         <outlet property="enterNameTextField" destination="0Km-Qq-b0a" id="xQ1-3f-8Ku"/>
                         <outlet property="mailButton" destination="tnI-vu-Fmt" id="bAT-BW-ggH"/>
                         <outlet property="messageLabel" destination="YYn-4O-XLS" id="7KB-kb-W2K"/>
+                        <outlet property="nameLabel" destination="7sv-X1-kn8" id="k1B-YW-kdd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
